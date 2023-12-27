@@ -1,0 +1,48 @@
+package sub2;
+/**
+ * 날짜: 2023/12/26
+ * 이름: 엉구 
+ * 내용: Java 자료형 실습하기
+ * 
+ */
+public class DateTypeTest {
+
+
+	public static void main(String[] args) {
+		
+		// 정수형
+		byte num1 = 127;
+		short num2 = 32767;
+		int num3 = 2147483647;
+		long num4 = 922337203685477507L;
+		
+		//롱타입 접미사 L= 롱타입이다라고 알려주는 것
+		
+		System.out.println("num1 : " + num1);
+		System.out.println("num2 : " + num2);
+		System.out.println("num3 : " + num3);
+		System.out.println("num4 : " + num4);
+	
+		// 실수형
+		float var1 = 0.123456789f;
+		
+		//접미사 f 붙여야 함
+		
+		double var2 = 0.123457686791289;
+		
+		System.out.println("var1 : " + var1);
+		System.out.println("var2 : " + var2);
+		
+		// 논리형
+		
+		
+		
+		// 문자형
+		
+		
+		
+		// 문자열
+		
+		
+	}
+}

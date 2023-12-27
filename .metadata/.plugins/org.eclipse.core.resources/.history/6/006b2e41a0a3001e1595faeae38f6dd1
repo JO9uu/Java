@@ -1,0 +1,36 @@
+package sub1;
+
+public class Valueable {
+	/*
+	 * 날짜: 2023/12/26
+	 * 이름: 엉구
+	 * 내용: Ch02. Java 변수와 연산자
+	 */
+	public static void main(String[] args) {
+    
+		//변수
+		int a = 3;
+		int b = 7;
+		String c = "홍길동";
+		
+		System.out.println("a : " + a);
+		System.out.println("b : " + b);
+		System.out.println("c : " + c);
+		
+		//변수를 더 생성 할 수 없어 초기화
+		
+		a = 5;
+		System.out.println("a : " + a);
+				
+		//상수(대문자 표기가 원칙)
+		final int num = 5;
+		
+		// 변수를 덮어씌워 출력값은 7이 됨, final을 대입하면 초기화 x 상수는 값 대입 금지
+		System.out.println("num : " + num);
+		
+		
+	
+		
+		
+	}
+}

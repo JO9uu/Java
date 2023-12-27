@@ -1,0 +1,64 @@
+package sub3;
+/*
+ * 날짜: 2023/12/27
+ * 이름: 엉구
+ * 내용: Java 조건문 for 실습하기
+ * 
+ * 
+ * 
+ */
+
+
+public class Fortest {
+
+	public static void main(String[] args) {
+		
+		
+		//for
+		for(int i = 1; i<=5; i++) {
+			System.out.println("1 : " + i);
+			
+			
+			
+			
+			
+			
+		}
+		
+		
+		
+		
+		//1부터 10까지 합
+		
+		
+		
+		
+		
+		
+		//1부터 10까지 짝수합
+		
+		
+		
+		
+		
+			
+		//for 중첩
+		
+		
+		
+		
+		
+		//구구단
+		
+		
+		
+		
+		
+		//별삼각형
+		
+		
+		
+		
+		
+	}
+}
