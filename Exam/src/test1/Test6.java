@@ -17,6 +17,7 @@ public static void main(String[] args) {
 	System.out.print("y값 입력 : ");
 	int y = sc.nextInt();
 	
+	//조건식 ? 참 : 거짓 > 리턴	
 	String result = x > y ? "x가 더 큽니다." : "y가 더 큽니다.";
 	
 	System.out.println(result);

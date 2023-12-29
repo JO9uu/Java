@@ -16,6 +16,7 @@ public static void main(String[] args) {
 	boolean var6 = true;
 	boolean var7 = false;
 	String var8 = "hello";
+	//참조변수의 값이 없음을 나타냄
 	String var9 = null;
 	
 	System.out.println("var1 : " + var1);

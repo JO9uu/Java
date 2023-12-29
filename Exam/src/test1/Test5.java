@@ -16,9 +16,10 @@ public static void main(String[] args) {
 	System.out.print("점수 입력 : ");
 	int score = sc.nextInt();
 	
-	System.out.println("입력한 점수는 "+score+"입니다. ");
+	System.out.println("입력한 점수는 " +score+ "입니다. ");
 	
-	switch(score/10) {
+	//swich는 조건값 
+	switch(score / 10) {
 	case 10:
 	case 9:
 		System.out.println("A 입니다.");

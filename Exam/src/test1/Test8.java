@@ -8,6 +8,8 @@ package test1;
 public class Test8 {
 public static void main(String[] args) {
 	
+	//직접 그려보면 편함
+	
 	int n = 5;
 	
 	for(int i = 0; i<5; i++){

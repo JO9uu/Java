@@ -8,6 +8,7 @@ package test1;
 public class Test3 {
 public static void main(String[] args) {
 	
+	//변수 선언
 	int num=0; 
 	int result = num;	
 	num=1;
