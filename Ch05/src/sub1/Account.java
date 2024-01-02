@@ -1,0 +1,28 @@
+package sub1;
+
+public class Account {
+
+	String bank;
+	String id;
+	String name;
+    int balance;
+
+public void deposit (int money) {
+    	this.balance += money;
+    }
+
+public void withdraw (int money) {
+	this.balance -= money;
+}
+
+public void show() {
+	System.out.println("은행명 : "+ bank);
+	System.out.println("계좌번호 : "+ id);
+	System.out.println("예금주 : " + name);
+	System.out.println("계좌 잔액 : " + balance);
+}
+
+
+
+
+}
