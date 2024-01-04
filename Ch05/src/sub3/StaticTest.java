@@ -15,7 +15,7 @@ import sub4.StockAccount;
  *
  *
  *싱글톤(singleton)
- *-static을 활용한 싱글톤 객체는 오직 하나의 인스텉ㄴ스로 메모리상(Method Area)에 존재
+ *-static을 활용한 싱글톤 객체는 오직 하나의 인스턴스로 메모리상(Method Area)에 존재
  *-싱글톤 객체를 사용해서 메모리 절약과 성능 향상을 기대.
  *
  */
