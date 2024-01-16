@@ -6,9 +6,12 @@ package test3;
  */
 public class Test01 {
 
+	//속성
 	private String name;
 	private int age;
 	
+	
+	//생성자
 	public Test01(String name, int age) {
 		this.name= name;
 		this.age= age;

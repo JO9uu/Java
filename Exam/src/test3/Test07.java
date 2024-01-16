@@ -6,11 +6,11 @@ package test3;
  */
 
 class Customer {
-	private int id;
-	private String name;
-	private String grade;
-	private int point;
-	private double pointRatio ;
+	protected int id;
+	protected String name;
+	protected String grade;
+	protected int point;
+	protected double pointRatio ;
 	
 	public Customer(int id, String name) {
 		this.id = id;
@@ -26,20 +26,23 @@ class Customer {
 	}
 	
 	public void showInfo() {
-		System.out.println("==============");
+		System.out.println("==========================");
 		System.out.println("고객번호 : " + id);
-		System.out.println("고객이름 : ");
-		System.out.println("고객등급 : ");
-		System.out.println("현재 포인트 : ");
-		System.out.println("포인트 적립율 : ");
-		System.out.println("--------------");
+		System.out.println("고객이름 : " + name);
+		System.out.println("고객등급 : " + grade);
+		System.out.println("현재 포인트 : " + point);
+		System.out.println("포인트 적립율 : " + pointRatio);
+		System.out.println("--------------------------");
 	}
+}
 	
 	class VipCustomer extends Customer{
+		
 		private double saleRatio;
 		
 		public VipCustomer(int id, String name) {
-			???????
+			//Customer를 상속 받았으니 초기화 해야함
+			super(id, name);
 			super.grade = "VIP";
 			super.point = 1000;
 			super.pointRatio = 0.05;
@@ -54,7 +57,9 @@ class Customer {
 	}
 
 public class Test07 {
+	
 	public static void main(String[] args) {
+	
 		Customer kim = new Customer(1001, "김춘추");
 		VipCustomer lee = new VipCustomer(1002, "이순신");
 		
@@ -64,6 +69,4 @@ public class Test07 {
 		kim.showInfo();
 		lee.showInfo();
 	}
-}
-
 }

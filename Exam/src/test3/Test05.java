@@ -6,9 +6,11 @@ package test3;
  */
 
 class Vehicle {
+	//속성
 	private String name;
 	private int price;
 	
+	//생성자
 	public Vehicle(String name, int price) {
 		this.name = name;
 		this.price = price;
@@ -23,6 +25,7 @@ class Vehicle {
 }
 
 class CarFactory{
+	//싱글톤 패턴
 	private static CarFactory instance = new CarFactory();
 	private CarFactory() {}
 	
@@ -31,8 +34,11 @@ class CarFactory{
 		
 	}
 	
-	public  createCar(String name, int price){
-		return new Vehicle(name, price);
+	public  Vehicle createCar(String name, int price){
+	
+		Vehicle v = new Vehicle(name, price);	
+		
+		return v;
 		
 	}
 }
@@ -40,10 +46,10 @@ class CarFactory{
 public class Test05 {
 	public static void main(String[] args) {
 		
-		CarFactory factory = new CarFactory();
+		CarFactory factory = CarFactory.getInstance();
 		
-		Vehicle avante = Factory.createCar("아반테", 2500);
-		Vehicle sonata = Factory.createCar("소나타", 3000);
+		Vehicle avante = factory.createCar("아반테", 2500);
+		Vehicle sonata = factory.createCar("소나타", 3000);
 		
 		avante.info();
 		sonata.info();

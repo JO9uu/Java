@@ -18,7 +18,7 @@ import java.util.Arrays;
  * 4단계: 두번째 원소보다 작은 원소를 찾으면 서로 자리를 교환
  * 5단계: 위와 같이 최종 숫자가 하나 남을 때까지 반복 수행
  */
-public class Test4 {
+public class Test04 {
 
 	public static void main(String[] args) {
 	

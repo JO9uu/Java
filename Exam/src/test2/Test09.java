@@ -22,7 +22,7 @@ package test2;
  *| 4단계 |  12 |   6 | 
  *--------------------
  */
-public class Test9 {
+public class Test09 {
 
 	public static void main(String[] args) {
     

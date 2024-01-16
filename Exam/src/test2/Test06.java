@@ -5,14 +5,14 @@ import java.util.Scanner;
  * 이름: 정원구
  * 내용: 자바 메서드 연습문제
  */
-public class Test6 {
+public class Test06 {
 
 	public static void intro() {
 		System.out.println("******* START *******");
 		System.out.println("두개의 정수를 입력");
 	}
 	
-	public static int input() (Scanner sc. String name){
+	public static int input (Scanner sc, String name){
 		System.out.print("변수" + name + "값 입력 : ");
 		int input = sc.nextInt();
 		return input;
@@ -33,8 +33,8 @@ public class Test6 {
 		intro();
 		
 		
-		int a = input(sc. "a");
-		int b = input(sc. "b");
+		int a = input(sc, "a");
+		int b = input(sc, "b");
 		
 		int output = add(a, b);
 		result(output);

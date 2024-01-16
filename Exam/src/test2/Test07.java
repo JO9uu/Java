@@ -4,7 +4,7 @@ package test2;
  * 이름: 정원구
  * 내용: 자바 배열 문자 출력 연습문제
  */
-public class Test7 {
+public class Test07 {
 
 	public static void main(String[] args) {
 	

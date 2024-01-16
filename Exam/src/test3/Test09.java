@@ -1,11 +1,12 @@
 package test3;
+
 /*
  * 날짜: 2024/01/04
  * 이름: 정원구
  * 내용: 추상 클래스, 다형성 연습문제
  */
 
-?????? class Shape{
+abstract class Shape{
 	public abstract void draw();
 }
 
@@ -16,7 +17,7 @@ class Triangle extends Shape {
 	}
 }
 
-class Circle extends ????{
+class Circle extends Shape{
 	@Override
 	public void draw() {
 		System.out.println("draw Circle!");
@@ -36,7 +37,7 @@ public class Test09 {
 		here.draw(tringle);
 	}
 	
-	public void draw(???? obj) {
+	public void draw(Shape obj) {
 		obj.draw();
 		
 	}

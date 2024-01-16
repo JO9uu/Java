@@ -6,24 +6,22 @@ package test3;
  */
 
 class Product {
-	???? String category;
-	???? int price;
+	
+	protected String category;
+	protected int price;
 	
 	public Product(String category, int price) {
 		this.category = category;
 		this.price = price;
 	}
 	
-	public void ???? () {
-		
-	}
+	public void info () {}
 }	
 
-class Television ????????????{
+class Television extends Product{
 	
 	public Television(String category, int price) {
 		super(category, price);
-		
 	}
 	
 	@Override
@@ -31,13 +29,11 @@ class Television ????????????{
 		System.out.println("제품분류 : " + category);
 		System.out.println("제품가격 : " + price);
 	}
-
 }
 
-class Computer ??????? {
+class Computer extends Product {
 	public Computer(String category, int price) {
 		super(category, price);
-		
 	}
 	
 	@Override
@@ -50,8 +46,8 @@ class Computer ??????? {
 public class Test08 {
 	public static void main(String[] args) {
 		
-		????p1 = new Television("가전", 100);
-		????p2 = new Computer("컴퓨터", 150);
+		Product p1 = new Television("가전", 100);
+		Product p2 = new Computer("컴퓨터", 150);
 		
 		p1.info();
 		p2.info();

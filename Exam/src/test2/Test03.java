@@ -4,7 +4,7 @@ package test2;
  * 이름: 정원구
  * 내용: 자바 배열 문자 출력 연습문제
  */
-public class Test3 {
+public class Test03 {
 public static void main(String[] args) {
 
 	int arr[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};

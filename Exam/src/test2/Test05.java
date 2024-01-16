@@ -7,7 +7,7 @@ import java.util.Scanner;
  * 내용: 자바 배열 이전탐색 연습문제
  * 
  */
-public class Test5 {
+public class Test05 {
 public static void main(String[] args) {
 	
 	Scanner sc = new Scanner(System.in);
